@@ -1,0 +1,22 @@
+### GET ALL SCORES
+GET localhost:3001/api/scores
+
+### CREATE A SCORE
+POST localhost:3001/api/scores
+Content-Type: application/json
+
+{
+  "username": "Franciukure",
+  "score": "9",
+  "joke": "6461f476d9a9da9dbeade36e"
+}
+
+### CREATE INCORRECT SCORE
+POST localhost:3001/api/scores
+Content-Type: application/json
+
+{
+  "username": "francuz",
+  "score": "10",
+  "joke": "6461f476d9a9da9dbeade24a"
+}

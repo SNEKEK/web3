@@ -1,0 +1,29 @@
+### GET ALL JOKES
+GET localhost:3001/api/jokes
+
+### GET ONE
+GET localhost:3001/api/jokes/6461f476d9a9da9dbeade35e
+
+### CREATE ONE
+POST localhost:3001/api/jokes
+Content-Type: application/json
+
+{
+  "question": "KEKISTAN hahaha",
+  "answer": "pepe the frog",
+  "category": "4chan"
+}
+
+### CREATE ONE
+POST localhost:3001/api/jokes
+Content-Type: application/json
+
+{
+  "question": "KE",
+  "answer": "pepe the frog",
+  "category": "4chan"
+}
+
+### DELETE ONE
+DELETE localhost:3001/api/jokes/659c52e8ba86d04693cb8fb7
+
